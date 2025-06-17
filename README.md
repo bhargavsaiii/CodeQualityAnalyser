@@ -36,17 +36,6 @@ npm install react-chartjs-2 chart.js html2canvas axios bootstrap
 
 Windows: Download MongoDB Community Edition from mongodb.com. Run:mongod --dbpath <path-to-data-folder>
 
-
-Ubuntu/macOS: Install via package manager:# Ubuntu
-sudo apt-get install mongodb
-sudo systemctl start mongodb
-# macOS
-brew tap mongodb/brew
-brew install mongodb-community
-brew services start mongodb-community
-
-
-
 5. Verify Dependencies
 
 Backend: pip show fastapi uvicorn reportlab pylint radon pymongo
@@ -58,17 +47,14 @@ Usage
 Start MongoDB:
 mongod --dbpath <path-to-data-folder>  # Adjust path as needed
 
-
 Run Backend:
 cd backend
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 uvicorn app:app --reload
 
-
 Run Frontend:
 cd frontend
 npm run dev
-
 
 Access the Application:
 
@@ -83,10 +69,6 @@ Upload a .py file (e.g., sample.py):def example(x):
 
 View analysis results, charts, and download the PDF report.
 
-
-
-Screenshots
-(Add screenshots here, e.g., upload interface, analysis results, PDF sample)
 Project Structure
 code-quality-analyzer/
 ├── backend/
