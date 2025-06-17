@@ -42,8 +42,6 @@ Backend: pip show fastapi uvicorn reportlab pylint radon pymongo
 Frontend: npm list react-chartjs-2 chart.js html2canvas axios bootstrap
 MongoDB: mongosh --version
 
-Usage
-
 Start MongoDB:
 mongod --dbpath <path-to-data-folder>  # Adjust path as needed
 
@@ -59,13 +57,7 @@ npm run dev
 Access the Application:
 
 Open http://localhost:5173 in your browser.
-Upload a .py file (e.g., sample.py):def example(x):
-    if x > 0:
-        for i in range(5):
-            if i % 2 == 0:
-                print(i)
-    return x
-
+Upload a .py file 
 
 View analysis results, charts, and download the PDF report.
 
