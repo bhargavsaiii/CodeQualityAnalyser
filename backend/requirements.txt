@@ -1,0 +1,6 @@
+fastapi==0.112.0
+uvicorn==0.30.3
+pylint==3.2.6
+radon==6.0.1
+pymongo==4.8.0
+python-multipart==0.0.9

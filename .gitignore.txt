@@ -1,0 +1,10 @@
+# .gitignore
+__pycache__/
+*.pyc
+venv/
+node_modules/
+.env
+*.log
+/backend/data/
+*.pdf
+*.png
